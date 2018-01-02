@@ -4,7 +4,7 @@ function init() {
 const body = document.getElementById('body');
 let index = 0;
 body.addEventListener('keydown', function(e){
-  const key = parseInt(e.detail || e.which);
+  const key = parseInt(e.detail || e.location);
   if(key === code[index]){
     index++;
     if(index == code.length){
