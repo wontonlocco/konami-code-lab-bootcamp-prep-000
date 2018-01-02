@@ -19,6 +19,6 @@ function downKeyHandler(e){
 
 function init() {
   const input = document.getElementById('body');
-  input.addEventListener('keydown', )
+  input.addEventListener('keydown', downKeyHandler);
 }
 init();
