@@ -1,7 +1,6 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 
-const input = document.getElementById('body');
 let index = 0;
 body.addEventListener('keydown', function(e){
   const key = parseInt(e.detail || e.location);
@@ -17,4 +16,6 @@ body.addEventListener('keydown', function(e){
   }
 })
 function init() {
+  const input = document.getElementById('body');
+
 }
