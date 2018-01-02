@@ -9,7 +9,9 @@ body.addEventListener('keydown', function(e){
     index++;
     if(index == code.length){
       alert("Congratulations!");
+      index = 0;
     }
+    index = 0;
   }
 })
 }
